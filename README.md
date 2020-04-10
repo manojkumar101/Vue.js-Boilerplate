@@ -1,4 +1,3 @@
-# BuildingLink Survey Module
 
 ## Getting started
 
