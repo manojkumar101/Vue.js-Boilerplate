@@ -1,7 +1,7 @@
 <template>
     
      <div id="login" class="image">
-        <h3 class="text-center text-white pt-5">Welcome to Donate</h3>
+        <h3 class="text-center text-white pt-5">Welcome Page !</h3>
         <div class="container">
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
@@ -17,9 +17,9 @@
                                 <input  id="password" v-model="password"   type="text" name="password"  class="form-control" >
                             </div>
                             <div class="form-group">
-                                <label for="remember-me" class="text-info"><span>Remember me  </span><span><input id="remember-me" v-model="remember" name="remember-me"  type="checkbox" ></span></label><br>
+                                <label for="remember-me" class="text-info"><span>Remember me (not working) </span><span><input id="remember-me" v-model="remember" name="remember-me"  type="checkbox" ></span></label><br>
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="submit" @click.prevent="login">
-                                
+                                ``
                             </div>
                             <div id="register-link" class="text-right">
                                 <router-link to="/registration"><a href="#" class="text-info">Register here</a></router-link>

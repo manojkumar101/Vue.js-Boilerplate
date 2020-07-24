@@ -4,7 +4,7 @@
                     <div class="col-md-3 register-left">
                         <img src="../../../assets/logo_white.png" alt=""/>
                         <h3>Welcome</h3>
-                        <p>You are 30 seconds away from Donation!</p>
+                        <p>You are 30 seconds away from Registration!</p>
                         <router-link to="/login" class="btn btnLogin">Login</router-link>
                         <!-- <input type="submit" name="" value="Login"/><br/> -->
                     </div>
